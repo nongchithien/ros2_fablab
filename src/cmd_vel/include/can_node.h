@@ -1,10 +1,9 @@
 #ifndef CAN_NODE_H
 #define CAN_NODE_H
 
-#include "rclcpp/rclcpp.hpp"
-#include "utils/msg/cmdvel.hpp"
-#include "utils/msg/poserobot.hpp"
-#include "utils/msg/waypoint.hpp"
+#include <ros/ros.h>
+#include <utils/pose_robot.h>
+#include <utils/cmd_vel.h>
 #include <string>
 #include <vector>
 #include <thread>
